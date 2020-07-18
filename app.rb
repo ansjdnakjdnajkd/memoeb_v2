@@ -32,12 +32,12 @@ trap("SIGINT") {
 	end
 	f.close()
 	# end finalizing	
-	`sed -i -e '/F4743CAD170C9488DEC39344E0CB25ED9CE357A5/r log_mod' template.html` # modify template
-	`sed '/F4743CAD170C9488DEC39344E0CB25ED9CE357A5/d' ./template.html > output.html`
-	`rm template.html`
-	`mv template.html-e template.html`
-	`_now=$(date +"%H:%M_%d_%m_%Y") && mv ./log_mod ./log_$_now.json`	
-	`rm ./log_mod1 && rm ./log`
+        `cp template.html template_bak.html`
+        `sed -i -e '/F4743CAD170C9488DEC39344E0CB25ED9CE357A5/r log_mod' template_bak.html` # modify template
+        `sed '/F4743CAD170C9488DEC39344E0CB25ED9CE357A5/d' ./template_bak.html > output.html`
+        `rm template_bak.html`
+        `_now=$(date +"%H:%M_%d_%m_%Y") && mv ./log_mod ./log_$_now.json`
+        `rm ./log_mod1 && rm ./log`
 	exit
 }
 
