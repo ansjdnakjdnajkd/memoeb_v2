@@ -5,7 +5,7 @@
 
 * Listener hook on heap
 * Reading heap memory
-* String searchin in memory
+* String searching in memory
 * Pattern searching in memory
 * Digestible json log file
 * Human friendly report
