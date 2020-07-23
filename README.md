@@ -47,11 +47,11 @@ $ ruby app.rb -h
 ### tested on:
 
 * iPhone 7 iOS 13.5.0 ([Jailbreak checkra1n](https://checkra.in/) or [Jailbreak unc0ver](https://unc0ver.dev/))
-* Android: Nexus 6P, 8.1
-* macOS Catalania 10.15.x 
+* Nexus 6P, Android 8.1 (root by Mag1sk)
+* macOS Catalina 10.15.x 
 * ruby 2.7.1p83 ((2020-03-31 revision a0c7c23c9c) [x86_64-darwin19]
 * frida 12.10.4
-* python 3.8.3
+* python 3.8.3, python 3.6
 
 ![](https://secure.meetupstatic.com/photos/event/8/2/d/b/highres_485253499.jpeg)
 ### Hackathon HackSmith v3.0 'Honorable Tool' award 2019
